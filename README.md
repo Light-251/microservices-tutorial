@@ -3,9 +3,9 @@
 Questo repository è dedicato al mio esercizio personale con applicazioni basate su microservizi. Utilizzo questo spazio per sperimentare e migliorare le mie competenze nella progettazione, sviluppo e gestione di servizi distribuiti.
 
 ## Contenuto del Repository:
-* [order-service](https://github.com/Light-251/microservices-tutorial/tree/master/order-service): gestionale riguardo ordnini, Utilizza mySql come Database.
-* [inventory-service](https://github.com/Light-251/microservices-tutorial/tree/master/inventory-service): servizio per la gestione di un inventario, utilizza mySql come Database.
-* [product-service](https://github.com/Light-251/microservices-tutorial/tree/master/product-service): servizio per la gestione dei prodotti, utilizza MongoDb come Database.
+* [order-service](https://github.com/Light-251/microservices-tutorial/tree/master/order-service): servizio per la gestione di ordini.
+* [inventory-service](https://github.com/Light-251/microservices-tutorial/tree/master/inventory-service): servizio per la gestione di un inventario.
+* [product-service](https://github.com/Light-251/microservices-tutorial/tree/master/product-service): servizio per la gestione dei prodotti.
 
 ## [Discovery Server](https://github.com/Light-251/microservices-tutorial/tree/master/discovery-server):
 
