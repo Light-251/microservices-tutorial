@@ -31,3 +31,5 @@ Il `discovery-server` semplifica notevolmente la creazione di un'architettura a 
 - **Spring Boot:** Framework per la creazione di applicazioni Java basato su standard industriali.
 - **MySQL:** Sistema di gestione di database relazionali open source.
 - **MongoDB:** Database NoSQL orientato ai documenti.
+
+  **Fonte:** https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c
