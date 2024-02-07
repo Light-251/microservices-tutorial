@@ -2,6 +2,13 @@
 # Descrizione:
 Questo repository è dedicato al mio esercizio personale con applicazioni basate su microservizi. Utilizzo questo spazio per sperimentare e migliorare le mie competenze nella progettazione, sviluppo e gestione di servizi distribuiti.
 
+### Tecnologie Utilizzate:
+
+- **Spring Boot:** Framework per la creazione di applicazioni Java basato su standard industriali.
+- **MySQL:** Sistema di gestione di database relazionali open source.
+- **MongoDB:** Database NoSQL orientato ai documenti.
+- **Keycloak:** Servizio di gestione dell'accesso e dell'identità, fornisce autenticazione, autorizzazione e sicurezza per le applicazioni.
+
 ## Contenuto del Repository:
 * [order-service](https://github.com/Light-251/microservices-tutorial/tree/master/order-service): servizio per la gestione di ordini.
 * [inventory-service](https://github.com/Light-251/microservices-tutorial/tree/master/inventory-service): servizio per la gestione di un inventario.
@@ -25,11 +32,5 @@ Il `discovery-server` è un componente essenziale all'interno dell'architettura 
 ### Utilizzo:
 
 Il `discovery-server` semplifica notevolmente la creazione di un'architettura a microservizi, fornendo un meccanismo flessibile per la gestione della registrazione e della localizzazione dei servizi.
-
-### Tecnologie Utilizzate:
-
-- **Spring Boot:** Framework per la creazione di applicazioni Java basato su standard industriali.
-- **MySQL:** Sistema di gestione di database relazionali open source.
-- **MongoDB:** Database NoSQL orientato ai documenti.
 
   **Fonte:** https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c
