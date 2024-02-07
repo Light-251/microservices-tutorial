@@ -38,12 +38,12 @@ public class OrderService {
 
         List<String> skuCodes = order.getOrderLineItemsList().stream().map(OrderLineItems::getSkuCode).toList();
 
-        InventoryResponse[] inventoryResponsesArray = webClientBuilder.build().get()//specifica il metodo di richiesta hhtp
-                .uri("http://inventory-service/api/inventory", //url verso cui fare la chiamata
-                        uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build()) //parametri richiesti
-                .retrieve()//recupera la risposta
-                .bodyToMono(InventoryResponse[].class)//specificare il tipo di risposta
-                .block();//con questo metodo il thread si blocca e aspetta la fine dell'esecuzione della chiamata rendendo la chiamata del tipo "sincrono"
+        InventoryResponse[] inventoryResponsesArray = webClientBuilder.build().get()                  //specifica il metodo di richiesta hhtp
+                .uri("http://inventory-service/api/inventory",                                    //url verso cui fare la chiamata
+                        uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())       //parametri richiesti
+                .retrieve()                                                                           //recupera la risposta
+                .bodyToMono(InventoryResponse[].class)                                                //specificare il tipo di risposta
+                .block(); // con questo metodo il thread si blocca e aspetta la fine dell'esecuzione della chiamata rendendo la chiamata del tipo "sincrono"
 
         boolean allProductsInStock = Arrays.stream(inventoryResponsesArray).allMatch(InventoryResponse::getIsInStock);
 
